@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SurveyMonkeyPracticeSuite" duration-ms="27863" started-at="2020-07-13T18:28:50Z" finished-at="2020-07-13T18:29:18Z">
+    <groups>
+    </groups>
+    <test name="Functional testing1" duration-ms="8280" started-at="2020-07-13T18:28:50Z" finished-at="2020-07-13T18:28:58Z">
+      <class name="com.TestngConcepts.com.SignUpLinkTest">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.TestngConcepts.com.SignUpLinkTest@10d210d]" name="init_Setup" is-config="true" duration-ms="6718" started-at="2020-07-13T18:28:50Z" finished-at="2020-07-13T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="verifySignUpIsDisplayed()[pri:0, instance:com.TestngConcepts.com.SignUpLinkTest@10d210d]" name="verifySignUpIsDisplayed" duration-ms="864" started-at="2020-07-13T18:28:57Z" finished-at="2020-07-13T18:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpIsDisplayed -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestngConcepts.com.SignUpLinkTest@10d210d]" name="teardown" is-config="true" duration-ms="670" started-at="2020-07-13T18:28:58Z" finished-at="2020-07-13T18:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestngConcepts.com.SignUpLinkTest -->
+    </test> <!-- Functional testing1 -->
+    <test name="Functional testing2" duration-ms="11207" started-at="2020-07-13T18:28:58Z" finished-at="2020-07-13T18:29:10Z">
+      <class name="com.TestngConcepts.com.DashboardisPresent">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.TestngConcepts.com.DashboardisPresent@c5cc4c]" name="init_Setup" is-config="true" duration-ms="6109" started-at="2020-07-13T18:28:58Z" finished-at="2020-07-13T18:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="enterLoginDetails()[pri:0, instance:com.TestngConcepts.com.DashboardisPresent@c5cc4c]" name="enterLoginDetails" duration-ms="2086" started-at="2020-07-13T18:29:04Z" finished-at="2020-07-13T18:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginDetails -->
+        <test-method status="PASS" signature="checkDashboardIsPresent()[pri:0, instance:com.TestngConcepts.com.DashboardisPresent@c5cc4c]" name="checkDashboardIsPresent" duration-ms="1932" started-at="2020-07-13T18:29:07Z" depends-on-methods="com.TestngConcepts.com.DashboardisPresent.enterLoginDetails" finished-at="2020-07-13T18:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardIsPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestngConcepts.com.DashboardisPresent@c5cc4c]" name="teardown" is-config="true" duration-ms="1072" started-at="2020-07-13T18:29:08Z" finished-at="2020-07-13T18:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestngConcepts.com.DashboardisPresent -->
+    </test> <!-- Functional testing2 -->
+    <test name="Functional testing3" duration-ms="8354" started-at="2020-07-13T18:29:10Z" finished-at="2020-07-13T18:29:18Z">
+      <class name="com.TestngConcepts.com.LogInTestUsingparametersConcept">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.TestngConcepts.com.LogInTestUsingparametersConcept@1a9e7c8]" name="init_Setup" is-config="true" duration-ms="6132" started-at="2020-07-13T18:29:10Z" finished-at="2020-07-13T18:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="enterLoginDetails(java.lang.String, java.lang.String)[pri:0, instance:com.TestngConcepts.com.LogInTestUsingparametersConcept@1a9e7c8]" name="enterLoginDetails" duration-ms="1565" started-at="2020-07-13T18:29:16Z" finished-at="2020-07-13T18:29:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seleniumtraining1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginDetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestngConcepts.com.LogInTestUsingparametersConcept@1a9e7c8]" name="teardown" is-config="true" duration-ms="653" started-at="2020-07-13T18:29:17Z" finished-at="2020-07-13T18:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestngConcepts.com.LogInTestUsingparametersConcept -->
+    </test> <!-- Functional testing3 -->
+  </suite> <!-- SurveyMonkeyPracticeSuite -->
+</testng-results>

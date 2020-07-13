@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SurveyMonkeyPracticeSuite]">
+  <test thread-count="5" name="Functional testing3(failed)">
+    <parameter name="passWord" value="selenium1234"/>
+    <parameter name="userName" value="Seleniumtraining1"/>
+    <classes>
+      <class name="com.TestngConcepts.com.LogInTestUsingparametersConcept">
+        <methods>
+          <include name="init_Setup"/>
+          <include name="enterLoginDetails"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.TestngConcepts.com.LogInTestUsingparametersConcept -->
+    </classes>
+  </test> <!-- Functional testing3(failed) -->
+</suite> <!-- Failed suite [SurveyMonkeyPracticeSuite] -->
